@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    src: url(); 
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+}
+.main-title{
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.main-box{
+    width: 610px;
+    height: 329px;
+    background-color: #DBDBDB;
+    align-items: center;
+    border-radius: 30px;
+}
+.pic{
+    width: 219px;
+    height: 219px;
+    margin-top: -49px;
+    margin-left: 196px;
+    /* position: relative; */
+}
+.question-box{
+    width: 475px;
+    height: 56px;
+    background-color: #FEEEE2;
+    border-radius: 20px;
+    margin-top: -25px;
+}
+.question-text{
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 19px;
+    font-size: 16px;
+}
+.yes-btn{
+    width: 157px;
+    height: 41px;
+    background-color: #6FD240;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 0px;
+    font-weight: 700;
+}
+.no-btn{
+    width: 157px;
+    height: 41px;
+    margin-left: 25px;
+    background-color: #E12E2E;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 0px;
+    font-weight: 700;
+}
+
